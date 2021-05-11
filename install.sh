@@ -2,4 +2,4 @@
 
 set -e
 
-./install/neovim.sh
+source installers/neovim.sh
