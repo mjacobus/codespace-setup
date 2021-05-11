@@ -13,3 +13,6 @@ cd /workspaces/neovim
 # compile and install neovim
 make CMAKE_BUILD_TYPE=RelWithDebInfo
 sudo make install
+
+pip install neovim
+pip2 install neovim
