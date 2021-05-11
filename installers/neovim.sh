@@ -2,7 +2,7 @@
 
 set -e
 
-apt-get install libtool-bin
+sudo apt-get install -y libtool-bin
 
 if [[ ! -d /workspaces/neovim ]]; then
   git clone https://github.com/neovim/neovim /workspaces/neovim
@@ -12,4 +12,4 @@ cd /workspaces/neovim
 
 # compile and install neovim
 make CMAKE_BUILD_TYPE=RelWithDebInfo
-make install
+sudo make install
